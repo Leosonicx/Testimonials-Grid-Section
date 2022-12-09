@@ -1,0 +1,127 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@600&display=swap');
+
+* {
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --graduate-color: rgba(148, 150, 153, 0.713);
+}
+
+html {
+    min-width: 375px;
+    max-width: 1440px;
+    margin: auto;
+}
+
+body {
+    width: 90%;
+    margin: auto;
+    margin-top: 10px;
+    min-height: 100%;
+    background: hsl(210, 46%, 95%);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.card {
+    background: rgb(255, 154, 154);
+    border-radius: 8px;
+    padding: 2em;
+    box-shadow: 0em .5em 0.3em rgba(0, 0, 0, 0.152);
+}
+
+.perfil {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.perfil img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    border: 2px solid white;
+}
+
+h2 {
+    display: flex;
+    flex-direction: column;
+    font-size: 1em;
+    color: white;
+    font-weight: 600;
+}
+
+span {
+    color: rgba(255, 255, 255, 0,501);
+    font-weight: 500;
+    font-size: 0.8em;
+}
+
+h3 {
+    color: white;
+    font-size: 1.3em;
+    font-weight: 600;
+    padding: 0.8em 0em;
+}
+
+p {
+    color: rgba(255, 255, 255, 0.741);
+    font-weight: 500;
+    line-height: 1.3em;
+    font-size: 0.9em;
+}
+
+.daniel {
+    background: hsl(263, 55%, 52%);
+    background-image: url(../images/bg-pattern-quotation.svg) no-repeat;
+    background-position: top right;
+    background-size: 150px;
+}
+
+.jonathan {
+    background: hsl(217, 19%, 35%);
+}
+
+.jeanette {
+    background: white;
+}
+
+.jeanette h2, .jeanette h3, .kira h2, .kira h3 {
+   color: #48556A;
+}
+
+.jeanette span, .kira span {
+    color: var(--graduate-color);
+}
+
+.jeanette p {
+    color: hsla(217, 19%, 35%, 0.741);
+}
+
+.patrick {
+    background: rgba(25, 32, 45, 1);
+}
+
+.patrick img {
+    border-color: rgba(115, 63, 200, 1);
+}
+
+.kira {
+    background: white;
+}
+
+.kira p {
+    color: rgba(72, 85, 106, 1);
+}
